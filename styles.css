@@ -16,4 +16,9 @@ body {
     padding: 10px;
     margin: auto;
     margin-top: 25px;
+    line-height: 1.5;
+}
+
+#skills-list {
+    list-style: none;
 }
