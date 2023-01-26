@@ -3,18 +3,27 @@
     <head>
         <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
-
+<body>
+    <header>
+        <nav>
+            <ul>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact-me">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
     <div class="main-content">
         <main>
-            <div class="light-black-box">
+            <div class="light-black-box" id="about-me">
                 <h2>About me</h2>
                 <p>Hello my name is Collin, I am a software developer with a primary interest in backend development, involving database manipulation and server side development.
                     I thorougly enjoy problem solving and working to build functional applications.
                 </p>
-               
                 
             </div>
-            <div class="light-black-box">
+            <div class="light-black-box" id="skills">
                 <h2>Skills</h2>
                 <p>My current programming skills include profiency in the following languages and libraries:</p>
                 <ul id = "skills-list">
@@ -26,11 +35,15 @@
                     <li>PostgreSQL</li>
                     <li>Sequilize</li>
                     <li>Node.js</li>
+                    <li>C#</li>
+                    <li>Python</li>
+                    <li>Flask</li>
+                    <li>AWS</li>
                     
                 </ul>
                 
             </div>
-            <div class="light-black-box">
+            <div class="light-black-box" id="projects" >
                 <h2>Projects</h2>
                 <p>The main project I have created is a web application that allows users to practice chess openings and save them for later reference. 
                     It consists of a frontend that is built with HTML, CSS, and JavaScript, and a backend that is built with Node.js and a PostgreSQL database.
@@ -42,12 +55,12 @@
                 </p>
                 
             </div>
-            <div class="light-black-box">
+            <div class="light-black-box" id="contact-me">
                 <h2>Contact Me</h2>
                 <p>Contact me via email at collinmpotts@gmail.com</p>
             </div>
         </main>
 
     </div>
-  </body>
+    </body>
 </html>
